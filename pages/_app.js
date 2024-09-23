@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import SideSlideshow from '../components/SideSlideshow'; 
+import SideSlideshow from '../components/SideSlideShow'; 
 
 function MyApp({ Component, pageProps }) {
   return (
