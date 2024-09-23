@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #797979;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #000000;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background) url('C:\Users\slimg\Desktop\PROGRAMMING BOOTCAMP\Film-React-Proj\film-genre-app\public\Posters.jpg') no-repeat center center fixed; /* Add your image path here */
+  background-size: cover; /* Cover the entire body */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.slideshow-container {
+  width: 200px; /* Adjust width based on how big you want the slideshow */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.left-slideshow {
+  left: 0;
+}
+
+.right-slideshow {
+  right: 0;
+}
+
+.app-content {
+  margin-left: 220px; /* Adjust these margins to fit the slideshow and your content */
+  margin-right: 220px;
+}
